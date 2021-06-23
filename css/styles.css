@@ -790,7 +790,7 @@ textarea:focus {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .checkbox:focus + .checkbox-icon {
-  background-color: var(--accent-color);
+  border-color: var(--accent-color);
 }
 
 .checkbox:checked + .checkbox-icon {
